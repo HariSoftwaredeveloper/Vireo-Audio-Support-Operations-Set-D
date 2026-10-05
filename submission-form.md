@@ -2,6 +2,7 @@
 
 ### Candidate / Submitter Details
 - **Project**: Vireo Pulse — Support Operations & SLA Root-Cause Workbench
+- **GitHub Repository**: https://github.com/HariSoftwaredeveloper/Vireo-Audio-Support-Operations-Set-D
 - **Target Audience**: Neha Kulkarni (Support Operations Manager), Arjun Mehta (Finance Controller), Priya Raman (Head of CX)
 - **Dataset Evaluated**: 18 months of support tickets (Jan 2025 – Jun 2026), 11,816 raw rows across Bengaluru & Indore sites
 
@@ -114,3 +115,10 @@ Within the 5-hour constraint, we deliberately prioritized high-leverage business
    - *Ambiguity*: Support policy §5 forbids both refund and replacement for the same order, but they often occur across separate tickets.
    - *Decision*: Aggregated by `order_id` across all tickets to detect cross-ticket double dips, and priced replacement units at `unit_cost_inr + Rs 340 reverse logistics`.
    - *Rationale*: Matches finance controller audit standards and reflects true physical inventory loss.
+
+---
+
+## 8. Public GitHub Repository Link
+
+**URL:** https://github.com/HariSoftwaredeveloper/Vireo-Audio-Support-Operations-Set-D
+
